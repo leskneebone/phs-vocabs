@@ -10,6 +10,240 @@
 @prefix pest: <https://linked.data.gov.au/def/phs/voc/targetpest/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
+# Adding concepts from the Biosecurity thesarus. Some consolidation will need to be done. Assuming the actual editing will be done in PoolParty.
+
+skos:inScheme <https://umelb-pp.poolparty.biz/biosecurityThesaurus/61>;
+  skos:prefLabel "Traps"@en, "Jebakan"@id;
+  skos:altLabel "Lure"@en;
+  skos:notation "97";
+  skos:narrower <https://umelb-pp.poolparty.biz/biosecurityThesaurus/93f2d2c3-eae2-4e5f-8033-19703dd4916b>,
+    <https://umelb-pp.poolparty.biz/biosecurityThesaurus/35e06180-681c-4184-ba47-87782ec494ba>,
+    <https://umelb-pp.poolparty.biz/biosecurityThesaurus/5af42a12-0676-4d00-af90-c54c17459842>,
+    <https://umelb-pp.poolparty.biz/biosecurityThesaurus/ee7ef720-c1cd-415c-a888-67e043858966>,
+    <https://umelb-pp.poolparty.biz/biosecurityThesaurus/9279fab9-ce2d-4028-9079-cea7b4efdb21>,
+    <https://umelb-pp.poolparty.biz/biosecurityThesaurus/1a055177-3f7a-49af-bd8b-51efe0e0c37b>,
+    <https://umelb-pp.poolparty.biz/biosecurityThesaurus/a276c723-ad9c-4b94-aa86-575434c9c02b>,
+    <https://umelb-pp.poolparty.biz/biosecurityThesaurus/9403728c-4d66-4a93-ac70-27b5c44726c0>,
+    <https://umelb-pp.poolparty.biz/biosecurityThesaurus/a941055a-5e53-413d-8375-849d338a9ee2>,
+    <https://umelb-pp.poolparty.biz/biosecurityThesaurus/3db40240-2689-41af-800c-582f9e422eb6>,
+    <https://umelb-pp.poolparty.biz/biosecurityThesaurus/0f41e87d-adc0-4371-8ea4-fe30ce775c36>,
+    <https://umelb-pp.poolparty.biz/biosecurityThesaurus/4eeeb202-b6dd-48a7-9b8f-e6755f911629>,
+    <https://umelb-pp.poolparty.biz/biosecurityThesaurus/3bf24302-102b-4ee9-b9a7-00c45e326d7e>,
+    <https://umelb-pp.poolparty.biz/biosecurityThesaurus/3070b366-64f8-488f-af4e-bf1e1f25aa54>,
+    <https://umelb-pp.poolparty.biz/biosecurityThesaurus/ddc931a5-c106-457a-a507-e3cb9723f831>,
+    <https://umelb-pp.poolparty.biz/biosecurityThesaurus/901b0ef5-23af-4535-93f5-d4233de5cf0b>,
+    <https://umelb-pp.poolparty.biz/biosecurityThesaurus/0e202f11-e9cd-42c9-b5dc-93864e31f947>,
+    <https://umelb-pp.poolparty.biz/biosecurityThesaurus/3134d82d-43c8-4c27-9e0c-75da09ad3bdf>,
+    <https://umelb-pp.poolparty.biz/biosecurityThesaurus/13fa6e9b-e1a3-465e-9c9c-b0b68d1b8778>,
+    <https://umelb-pp.poolparty.biz/biosecurityThesaurus/a85bd3b4-6aa3-4220-b771-6b770dbd3b23>,
+    <https://umelb-pp.poolparty.biz/biosecurityThesaurus/c3fa8468-0f1f-4be3-9a77-7ab0a77e1bef>,
+    <https://umelb-pp.poolparty.biz/biosecurityThesaurus/fc81830b-25f7-4c24-8e95-c723ed6787c0>,
+    <https://umelb-pp.poolparty.biz/biosecurityThesaurus/8ed50efd-a8b1-4f76-b251-04f818e68ffe>,
+    <https://umelb-pp.poolparty.biz/biosecurityThesaurus/7cfad871-fbf8-4eb6-8c80-fd5318460e81>;
+  skos:exactMatch dbpedia:Trapping, <https://linked.data.gov.au/def/phs#Trap>;
+  skos:closeMatch <http://linked.data.gov.au/def/tern-cv/d5ba2b33-e1b9-424c-9973-b77f1d1ce063>;
+  dcterms:modified "2023-10-23T02:59:57.556Z"^^xsd:dateTime;
+  <http://schema.semantic-web.at/ppt/NLP/corpusStatistic> _:genid-1d6a9a2ad2f1497eb470f451e11324d8-node469,
+    _:node605 .
+
+<https://umelb-pp.poolparty.biz/biosecurityThesaurus/61> a skos:ConceptScheme;
+  dcterms:creator <http://editor.vocabs.ands.org.au/user/UNIMELB.CEBRA_Kneebone.Les_Admin>;
+  dcterms:title "Biosecurity thesaurus"@en, "Tesaurus Ketahanan Hayati"@id;
+  dcterms:created "2022-02-16T00:07:59.525Z"^^xsd:dateTime;
+  dcterms:modified "2023-08-25T00:33:52.468Z"^^xsd:dateTime .
+
+<https://umelb-pp.poolparty.biz/biosecurityThesaurus/a941055a-5e53-413d-8375-849d338a9ee2>
+  a skos:Concept;
+  skos:prefLabel "Bottle trap"@en;
+  skos:altLabel "Green bottle trap"@en, "Jar traps"@en;
+  skos:broader "Traps"@en .
+
+<https://umelb-pp.poolparty.biz/biosecurityThesaurus/9279fab9-ce2d-4028-9079-cea7b4efdb21>
+  a skos:Concept;
+  skos:prefLabel "Light traps"@en;
+  skos:narrower "UV-light trap"@en;
+  skos:broader "Traps"@en .
+
+<https://umelb-pp.poolparty.biz/biosecurityThesaurus/8b0657eb-4942-4629-962a-9cedadd14c46>
+  a skos:Concept;
+  skos:prefLabel "UV-light trap"@en;
+  skos:broader "Light traps"@en .
+
+<https://umelb-pp.poolparty.biz/biosecurityThesaurus/0f41e87d-adc0-4371-8ea4-fe30ce775c36>
+  a skos:Concept;
+  skos:prefLabel "Confinement traps"@en;
+  skos:altLabel "Cage traps"@en, "Live traps"@en, "Containment trap"@en;
+  skos:narrowMatch <https://linked.data.gov.au/def/nrm/1318eeb4-2471-5fba-86f1-707b0ca9579d>;
+  skos:broader "Traps"@en .
+
+<https://umelb-pp.poolparty.biz/biosecurityThesaurus/8ed50efd-a8b1-4f76-b251-04f818e68ffe>
+  a skos:Concept;
+  skos:prefLabel "Sweep netting"@en;
+  skos:broader "Traps"@en .
+
+<https://umelb-pp.poolparty.biz/biosecurityThesaurus/3070b366-64f8-488f-af4e-bf1e1f25aa54>
+  a skos:Concept;
+  skos:prefLabel "Mass trapping"@en;
+  skos:altLabel "CeraTrap"@en;
+  skos:narrower "High-density mass trapping"@en;
+  skos:broader "Traps"@en .
+
+<https://umelb-pp.poolparty.biz/biosecurityThesaurus/1803679d-811f-432a-9e67-9785c5466cc5>
+  a skos:Concept;
+  skos:prefLabel "High-density mass trapping"@en;
+  skos:broader "CeraTrap"@en .
+
+<https://umelb-pp.poolparty.biz/biosecurityThesaurus/0e202f11-e9cd-42c9-b5dc-93864e31f947>
+  a skos:Concept;
+  skos:prefLabel "Pheromone traps"@en;
+  skos:altLabel "Sex attractant traps"@en;
+  skos:narrower "Nazgul traps"@en,
+    "Male attractants"@en;
+  skos:broader "Traps"@en .
+
+<https://umelb-pp.poolparty.biz/biosecurityThesaurus/6010a254-aa43-43ae-8eee-5fca68d85586>
+  a skos:Concept;
+  skos:prefLabel "Male attractants"@en;
+  skos:broader "Pheromone traps"@en .
+
+<https://umelb-pp.poolparty.biz/biosecurityThesaurus/29de90f1-50e1-44a6-acb1-a0db88fad6d1>
+  a skos:Concept;
+  skos:prefLabel "Nazgul traps"@en;
+  skos:hiddenLabel "Nazgȗl traps"@en;
+  skos:broader "Pheromone traps"@en .
+
+<https://umelb-pp.poolparty.biz/biosecurityThesaurus/13fa6e9b-e1a3-465e-9c9c-b0b68d1b8778>
+  a skos:Concept;
+  skos:prefLabel "Smart traps"@en;
+  skos:broader "Traps"@en .
+
+<https://umelb-pp.poolparty.biz/biosecurityThesaurus/c3fa8468-0f1f-4be3-9a77-7ab0a77e1bef>
+  a skos:Concept;
+  skos:prefLabel "Sticky traps"@en;
+  skos:altLabel "Glue traps"@en, "Yellow sticky traps"@en, "Stickybait"@en, "Sticky bait traps"@en,
+    "Sticky panel traps"@en;
+  skos:broader "Traps"@en .
+
+<https://umelb-pp.poolparty.biz/biosecurityThesaurus/3134d82d-43c8-4c27-9e0c-75da09ad3bdf>
+  a skos:Concept;
+  skos:prefLabel "Pitfall traps"@en;
+  skos:altLabel "Trapping pit"@en;
+  skos:notation "111";
+  skos:narrower "Pyramid traps"@en;
+  skos:broader "Traps"@en .
+
+<https://umelb-pp.poolparty.biz/biosecurityThesaurus/09afb341-28e8-487e-9680-7ceb47815e26>
+  a skos:Concept;
+  skos:prefLabel "Pyramid traps"@en;
+  skos:broader "Pitfall traps"@en .
+
+<https://umelb-pp.poolparty.biz/biosecurityThesaurus/fc81830b-25f7-4c24-8e95-c723ed6787c0>
+  a skos:Concept;
+  skos:prefLabel "Suction traps"@en;
+  skos:broader "Traps"@en .
+
+<https://umelb-pp.poolparty.biz/biosecurityThesaurus/7cfad871-fbf8-4eb6-8c80-fd5318460e81>
+  a skos:Concept;
+  skos:prefLabel "Water trap"@en;
+  skos:altLabel "Yellow pan trapping"@en;
+  skos:broader "Traps"@en .
+
+<https://umelb-pp.poolparty.biz/biosecurityThesaurus/93f2d2c3-eae2-4e5f-8033-19703dd4916b>
+  a skos:Concept;
+  skos:prefLabel "Passive traps"@en;
+  skos:narrower "Acoustic traps"@en,
+    "Malaise traps"@en;
+  skos:broader "Traps"@en .
+
+<https://umelb-pp.poolparty.biz/biosecurityThesaurus/d41a7a29-13de-462b-bca2-33bb5501c87d>
+  a skos:Concept;
+  skos:prefLabel "Acoustic traps"@en, "Acoustic tracking"@id;
+  skos:altLabel "Sound baited traps"@en, "Ultrasonic tracking"@en;
+  skos:broader "Passive traps"@en .
+
+<https://umelb-pp.poolparty.biz/biosecurityThesaurus/26347d17-d517-4d73-b602-92f2d3cdab76>
+  a skos:Concept;
+  skos:prefLabel "Malaise traps"@en;
+  skos:exactMatch dbpedia:Malaise_trap;
+  skos:broader "Passive traps"@en .
+
+<https://umelb-pp.poolparty.biz/biosecurityThesaurus/4eeeb202-b6dd-48a7-9b8f-e6755f911629>
+  a skos:Concept;
+  skos:prefLabel "Food baits"@en;
+  skos:altLabel "Protein bait"@en, "Bait traps"@en, "Protein lures"@en;
+  skos:narrower "Cucumber volatile lure"@en;
+  skos:broader "Traps"@en .
+
+<https://umelb-pp.poolparty.biz/biosecurityThesaurus/173650ae-63c6-43ae-b02e-fd1293bd3ec9>
+  a skos:Concept;
+  skos:prefLabel "Cucumber volatile lure"@en;
+  skos:broader "Food baits"@en .
+
+<https://umelb-pp.poolparty.biz/biosecurityThesaurus/35e06180-681c-4184-ba47-87782ec494ba>
+  a skos:Concept;
+  skos:prefLabel "Biconical traps"@en;
+  skos:altLabel "Conibear traps"@en;
+  skos:broader "Traps"@en .
+
+<https://umelb-pp.poolparty.biz/biosecurityThesaurus/a276c723-ad9c-4b94-aa86-575434c9c02b>
+  a skos:Concept;
+  skos:prefLabel "Tunnel traps"@en;
+  skos:altLabel "Cylinder traps"@en;
+  skos:broader "Traps"@en .
+
+<https://umelb-pp.poolparty.biz/biosecurityThesaurus/3bf24302-102b-4ee9-b9a7-00c45e326d7e>
+  a skos:Concept;
+  skos:prefLabel "Fruit fly trapping"@en;
+  skos:broader "Traps"@en .
+
+<https://umelb-pp.poolparty.biz/biosecurityThesaurus/3db40240-2689-41af-800c-582f9e422eb6>
+  a skos:Concept;
+  owl:sameAs <https://umelb-pp.poolparty.biz/biosecurityThesaurus/696_2>;
+  skos:prefLabel "Camera traps"@en, "Kamera jebakan"@id;
+  skos:altLabel "Camera trapping"@en, "Self-reporting cameras"@en;
+  skos:broader "Traps"@en .
+
+<https://umelb-pp.poolparty.biz/biosecurityThesaurus/5af42a12-0676-4d00-af90-c54c17459842>
+  a skos:Concept;
+  skos:prefLabel "Electrocuting traps"@en;
+  skos:altLabel "Bug zapper"@en, "Electric insect killer"@en;
+  skos:broader "Traps"@en .
+
+<https://umelb-pp.poolparty.biz/biosecurityThesaurus/1a055177-3f7a-49af-bd8b-51efe0e0c37b>
+  a skos:Concept;
+  skos:prefLabel "Ovitraps"@en;
+  skos:altLabel "Oviposition cup traps"@en, "Oviposition traps"@en;
+  skos:exactMatch dbpedia:Ovitrap;
+  skos:broader "Traps"@en .
+
+<https://umelb-pp.poolparty.biz/biosecurityThesaurus/ee7ef720-c1cd-415c-a888-67e043858966>
+  a skos:Concept;
+  skos:prefLabel "Funnel traps"@en;
+  skos:broader "Traps"@en .
+
+<https://umelb-pp.poolparty.biz/biosecurityThesaurus/a85bd3b4-6aa3-4220-b771-6b770dbd3b23>
+  a skos:Concept;
+  skos:prefLabel "Spore traps"@en;
+  skos:altLabel "Spore trapping"@en;
+  skos:broader "Traps"@en .
+
+<https://umelb-pp.poolparty.biz/biosecurityThesaurus/9403728c-4d66-4a93-ac70-27b5c44726c0>
+  a skos:Concept;
+  skos:prefLabel "Body gripping traps"@en;
+  skos:altLabel "Leghold traps"@en, "Coinbear traps"@en;
+  skos:broader "Traps"@en .
+
+<https://umelb-pp.poolparty.biz/biosecurityThesaurus/ddc931a5-c106-457a-a507-e3cb9723f831>
+  a skos:Concept;
+  skos:prefLabel "Net traps"@en;
+  skos:broader "Traps"@en .
+
+<https://umelb-pp.poolparty.biz/biosecurityThesaurus/901b0ef5-23af-4535-93f5-d4233de5cf0b>
+  a skos:Concept;
+  skos:prefLabel "Optimum trapping times"@en;
+  skos:broader "Traps"@en .
+
+
 traps:
     a owl:Ontology , skos:ConceptScheme ;
     dcterms:contributor <http://orcid.org/0000-0002-8742-7730> ;
